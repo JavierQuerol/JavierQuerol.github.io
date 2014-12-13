@@ -3,8 +3,8 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Javier Querol
-tagline:          javierquerol.es
+title:            javierquerol.es
+tagline:          iOS Development
 url:              http://javierquerol.es
 paginate:         1
 baseurl:          http://JavierQuerol.github.io/poole/
