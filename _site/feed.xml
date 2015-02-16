@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>javierquerol.es</title>
+    <description>this is only a test
+</description>
+    <link>http://javierquerol.es/</link>
+    <atom:link href="http://javierquerol.es/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 16 Feb 2015 13:02:21 +0100</pubDate>
+    <lastBuildDate>Mon, 16 Feb 2015 13:02:21 +0100</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Cloning NSManagedObject excluding entities and relations</title>
+        <description>&lt;script src=&quot;https://gist.github.com/027db7039a6def0651b9.js&quot;&gt; &lt;/script&gt;
+
+&lt;script src=&quot;https://gist.github.com/4a9bfeeeca212e3ab973.js&quot;&gt; &lt;/script&gt;
+
+</description>
+        <pubDate>Mon, 16 Feb 2015 12:35:22 +0100</pubDate>
+        <link>http://javierquerol.es/coredata/nsmanagedobject/category/2015/02/16/cloning-nsmanagedobject.html</link>
+        <guid isPermaLink="true">http://javierquerol.es/coredata/nsmanagedobject/category/2015/02/16/cloning-nsmanagedobject.html</guid>
+        
+        
+        <category>coredata</category>
+        
+        <category>nsmanagedobject</category>
+        
+        <category>category</category>
+        
+      </item>
+    
+      <item>
+        <title>Go to next NSIndexPath</title>
+        <description>&lt;p&gt;I’m currently making a form app, and I would like to access the next row on a &lt;code&gt;UITableView&lt;/code&gt;, I don’t want to care about if it’s on the current section or not, so I created a &lt;code&gt;UITableView&lt;/code&gt; category to retrieve the next &lt;code&gt;NSIndexPath&lt;/code&gt;:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/94dae5a7108268c39d2d.js&quot;&gt; &lt;/script&gt;
+
+&lt;script src=&quot;https://gist.github.com/f003cbaa6433184588fc.js&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;In case there are no next &lt;code&gt;NSIndexPath&lt;/code&gt; it will return the very first position (loop).&lt;/p&gt;
+</description>
+        <pubDate>Thu, 12 Feb 2015 12:18:22 +0100</pubDate>
+        <link>http://javierquerol.es/category/nsindexpath/uitableview/2015/02/12/go-to-next-nsindexpath.html</link>
+        <guid isPermaLink="true">http://javierquerol.es/category/nsindexpath/uitableview/2015/02/12/go-to-next-nsindexpath.html</guid>
+        
+        
+        <category>category</category>
+        
+        <category>nsindexpath</category>
+        
+        <category>uitableview</category>
+        
+      </item>
+    
+      <item>
+        <title>NSArray map and filer in Objective-C</title>
+        <description>&lt;script src=&quot;https://gist.github.com/19ba0a998cfa000994cd.js&quot;&gt; &lt;/script&gt;
+
+&lt;script src=&quot;https://gist.github.com/08304cbbb923d4f24146.js&quot;&gt; &lt;/script&gt;
+
+</description>
+        <pubDate>Sun, 11 Jan 2015 12:28:22 +0100</pubDate>
+        <link>http://javierquerol.es/category/nsarray/map/filter/objective-c/2015/01/11/nsarray-map-filter.html</link>
+        <guid isPermaLink="true">http://javierquerol.es/category/nsarray/map/filter/objective-c/2015/01/11/nsarray-map-filter.html</guid>
+        
+        
+        <category>category</category>
+        
+        <category>nsarray</category>
+        
+        <category>map</category>
+        
+        <category>filter</category>
+        
+        <category>objective-c</category>
+        
+      </item>
+    
+      <item>
+        <title>A NSManagedObject category to retrieve the first letter from an attribute</title>
+        <description>&lt;p&gt;Sometimes you want to order your &lt;code&gt;NSManagedObjects&lt;/code&gt; by name, but not all the objects has the first letter uppercased, and you don’t want to create a new property just to store the first letter. In this case you can call a method that gives you the first letter on runtime.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/4a924088c3aa1c20411f.js&quot;&gt; &lt;/script&gt;
+
+&lt;script src=&quot;https://gist.github.com/4f456265b8a33f065a7e.js&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;This category allows you to create sections in your &lt;code&gt;UITableView&lt;/code&gt; sorted by name like a Contact list.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 03 Jan 2015 12:35:22 +0100</pubDate>
+        <link>http://javierquerol.es/coredata/nsmanagedobject/category/2015/01/03/nsmanagedobject-first-letter.html</link>
+        <guid isPermaLink="true">http://javierquerol.es/coredata/nsmanagedobject/category/2015/01/03/nsmanagedobject-first-letter.html</guid>
+        
+        
+        <category>coredata</category>
+        
+        <category>nsmanagedobject</category>
+        
+        <category>category</category>
+        
+      </item>
+    
+      <item>
+        <title>UILabel that shows web content with native style</title>
+        <description>&lt;p&gt;With this category, your &lt;code&gt;UILabel&lt;/code&gt; will load the attributed html content (applying all the tags), but it will keep the font and size of the &lt;code&gt;UILabel&lt;/code&gt;.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/66ccba5f0e2b88a01cda.js&quot;&gt; &lt;/script&gt;
+
+&lt;script src=&quot;https://gist.github.com/95a5fc752e92aaaf00a7.js&quot;&gt; &lt;/script&gt;
+
+</description>
+        <pubDate>Sat, 27 Dec 2014 12:35:22 +0100</pubDate>
+        <link>http://javierquerol.es/uilabel/html/category/2014/12/27/uilabel-web-content-native-layout.html</link>
+        <guid isPermaLink="true">http://javierquerol.es/uilabel/html/category/2014/12/27/uilabel-web-content-native-layout.html</guid>
+        
+        
+        <category>uilabel</category>
+        
+        <category>html</category>
+        
+        <category>category</category>
+        
+      </item>
+    
+      <item>
+        <title>SCNNode face up</title>
+        <description>&lt;script src=&quot;https://gist.github.com/178ffceda8d3cbd4a96f.js&quot;&gt; &lt;/script&gt;
+
+&lt;script src=&quot;https://gist.github.com/85d82d197bfc056372f4.js&quot;&gt; &lt;/script&gt;
+
+</description>
+        <pubDate>Mon, 22 Dec 2014 12:35:22 +0100</pubDate>
+        <link>http://javierquerol.es/scnnode/scenekit/dice/face/up/2014/12/22/scnnode-face-up.html</link>
+        <guid isPermaLink="true">http://javierquerol.es/scnnode/scenekit/dice/face/up/2014/12/22/scnnode-face-up.html</guid>
+        
+        
+        <category>scnnode</category>
+        
+        <category>scenekit</category>
+        
+        <category>dice</category>
+        
+        <category>face</category>
+        
+        <category>up</category>
+        
+      </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,150 @@
+body {
+	font-size: 1em;
+	font-family: 'proxima-nova-alt', 'Helvetica Neue', Arial, sans-serif;
+	line-height: 1.5em;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	height: auto;
+	overflow-x: hidden;
+}
+
+p {
+	margin: 0px 0px 10px 0px;
+}
+
+.container {
+   	position:absolute;
+   	z-index:0;
+   	left:0;
+   	top:0;
+   	width:100%;
+   	height:100%; 
+   	overflow: hidden;
+	margin: 0 auto -50px;
+}
+
+.bigImage {
+	width: 100%;
+	height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+}
+
+
+.content {
+	width: 220px;
+	background-color: white;
+	position: absolute;
+	top: 40%;
+	top: calc(50% - 115px);
+	top: -moz-calc(50% - 115px);
+	top: -webkit-calc(50% - 115px);
+	right: 12%;
+	right: calc(50% - 125px);
+	right: -moz-calc(50% - 125px);
+	right: -webkit-calc(50% - 135px);
+	padding: 30px 25px 25px;
+	border-radius: 30px;
+	opacity: .85;
+	box-shadow: 0 0 8px 4px #09367d;
+	    -moz-box-shadow: 0 0 8px 4px #09367d;
+	    -webkit-box-shadow: 0 0 20px 0px #888;
+}
+
+@media all and (min-width:400px){  
+.content {
+	right: 5%;}
+	opacity: .2;
+}
+
+
+.name {
+	font-family: 'Raleway';
+	font-weight: 700;
+	font-size: 30px;
+	color: #336fab;
+	text-align: center;
+	letter-spacing: 0px;
+}
+
+.subtitle {
+	font-family: 'Raleway';
+	margin: 5px auto 0px;
+	font-weight: 200;
+	font-size: 22px;
+	color: #336fab;
+	text-align: center;
+	letter-spacing: 0px;
+}
+
+.subtitle a {
+	text-decoration: none;
+}
+
+.subtitle a:visited {
+	color: #336fab;
+}
+
+.subtitle a:hover, .subtitle a:active {
+	color: #BBB;
+}
+
+.footer {
+	position: absolute;
+	height: 23px;
+	font-family: 'Raleway';
+	font-weight: 200;
+	font-size: 16px;
+	text-align: center;
+	top: 90%;
+	top: calc(100% - 23px);
+	top: -moz-calc(100% - 23px);
+	top: -webkit-calc(100% - 23px);
+	right: 20px;
+	color: white;
+	text-shadow: 0 5px 5px rgba(0,0,0,1);
+}
+
+.list {
+	margin: 25px auto 0px;
+	color: #123;
+	list-style-type: none;
+	margin: 20px 0px 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.list li {
+ 	margin: 2px 0px;
+}
+
+
+.list a {
+	font-size: 1.5em;
+	letter-spacing: 0.0625px;
+	font-family: 'Raleway',Verdana;
+	text-decoration: none;
+	color: #999;
+}
+
+.list a:hover, .list a:active .list a:visited {
+	color: #336fab;
+}
+
+
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display:table;
+}
+
+.clearfix:after {
+    clear:both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.clearfix {
+    zoom:1;
+}

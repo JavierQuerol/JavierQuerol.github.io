@@ -1,19 +1,14 @@
-# Permalinks
-permalink:        pretty
-relative_permalinks: true
+# Site settings
+title: javierquerol.es
+author: Javier Querol
+position: iOS Developer
+email: querol.javi@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  this is only a test
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://javierquerol.es" # the base hostname & protocol for your site
+twitter_username: javierquerol
+github_username:  javierquerol
 
-# Setup
-title:            Javier Querol
-tagline:          iOS Development
-url:              http://javierquerol.es
-paginate:         1
-baseurl:          http://JavierQuerol.github.io/poole/
-author:
-  name:           Javier Querol
-  url:            https://twitter.com/javierquerol
-  email:          querol.javi@gmail.com
-
-# Custom vars
-version:          1.0.0
-github:
-  repo:           https://github.com/poole/poole
+# Build settings
+markdown: kramdown
