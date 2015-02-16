@@ -36,6 +36,10 @@ h6 {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+h1 {
+	font-size: lighter;
+}
+
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
