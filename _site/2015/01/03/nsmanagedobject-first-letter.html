@@ -11,7 +11,7 @@
     <title>A NSManagedObject category to retrieve the first letter from an attribute</title>
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://javierquerol.es/coredata/nsmanagedobject/category/2015/01/03/nsmanagedobject-first-letter.html">
+    <link rel="canonical" href="http://javierquerol.es/2015/01/03/nsmanagedobject-first-letter.html">
     <link rel="alternate" type="application/rss+xml" title="javierquerol.es" href="http://javierquerol.es/feed.xml" />
 
     <link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -39,10 +39,42 @@
 	<div>
 		<a href="/" style="text-decoration:none;"><h1 class="animated fadeInDown">Javier Querol</h1></a>
 		<span>I write enterprise iOS apps from Valencia.</span>
+        <div class="col-lg-12" style="padding:20px;">
+            <ul class="list-inline">
+                <li>
+                    <a href="mailto:querol.javi@gmail.com" class="btn-social">
+						<i class="fa fa-fw fa-envelope"></i></a>
+                </li>
+                <li>
+                    <a href="http://twitter.com/javierquerol" target="_blank" class="btn-social">
+						<i class="fa fa-fw fa-twitter fa-lg"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/profile/view?id=181255372" target="_blank" class="btn-social">
+						<i class="fa fa-fw fa-linkedin fa-lg"></i></a>
+                </li>
+                <li>
+                    <a href="http://github.com/javierquerol" target="_blank" class="btn-social">
+						<i class="fa fa-fw fa-github fa-lg"></i></a>
+                </li>
+				<li>
+					<a href="/cv.pdf" target="_blank" class="btn-social">
+						<i class="fa fa-fw fa-file-text"></i></a>
+				</li>
+				<li>
+					<a href="/portfolio" class="btn-social">
+						<i class="fa fa-fw fa-folder-open"></i></a>
+				</li>
+				<li>
+					<a href="/feed.xml" class="btn-social">
+						<i class="fa fa-fw fa-rss-square"></i></a>
+				</li>
+            </ul>
+			<hr>
+        </div>
 	</div>
 </div>
 
-	<hr >
 	<div class="wrapper">
 	<div class="post">
   <header class="post-header">
@@ -86,55 +118,25 @@
 	<script>
 	window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
 	</script>
-	<script type="text/javascript">
-	var disqus_shortname = 'javierquerol'; // register user
-	    var disqus_identifier = '/coredata/nsmanagedobject/category/2015/01/03/nsmanagedobject-first-letter';
-	    var disqus_url = 'http://javierquerol.es/coredata/nsmanagedobject/category/2015/01/03/nsmanagedobject-first-letter.html';
-	    (function() {
-	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-	        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	    })();
-	</script>
+	
+	<div id="disqus_thread"></div>
+	    <script type="text/javascript">
+	        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+	        var disqus_shortname = 'javierquerol'; // required: replace example with your forum shortname
+
+	        /* * * DON'T EDIT BELOW THIS LINE * * */
+	        (function() {
+	            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	        })();
+	    </script>
+	    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 	</div>
 	<hr >
-		<div class="profile-holder animated fadeInUp" id="about" style="padding: 15px;">
-        <div class="col-lg-12">
-            <ul class="list-inline">
-                <li>
-                    <a href="mailto:querol.javi@gmail.com" class="btn-social">
-						<i class="fa fa-fw fa-envelope"></i></a>
-                </li>
-                <li>
-                    <a href="http://twitter.com/javierquerol" target="_blank" class="btn-social">
-						<i class="fa fa-fw fa-twitter fa-lg"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/profile/view?id=181255372" target="_blank" class="btn-social">
-						<i class="fa fa-fw fa-linkedin fa-lg"></i></a>
-                </li>
-                <li>
-                    <a href="http://github.com/javierquerol" target="_blank" class="btn-social">
-						<i class="fa fa-fw fa-github fa-lg"></i></a>
-                </li>
-				<li>
-					<a href="/cv.pdf" target="_blank" class="btn-social">
-						<i class="fa fa-fw fa-file-text"></i></a>
-				</li>
-				<li>
-					<a href="/portfolio" class="btn-social">
-						<i class="fa fa-fw fa-folder-open"></i></a>
-				</li>
-				<li>
-					<a href="/feed.xml" class="btn-social">
-						<i class="fa fa-fw fa-rss-square"></i></a>
-				</li>
-            </ul>
-        </div>
-		<div>
-			<small>Copyright &copy; 2015 Javier Querol</small>
-		</div>
+		<div class="profile-holder" id="about" style="padding: 15px;">
+		<small>Copyright &copy; 2015 Javier Querol</small>
 	</div>
 	
     <!-- jQuery Version 1.11.0 -->

@@ -6,9 +6,28 @@
 </description>
     <link>http://javierquerol.es/</link>
     <atom:link href="http://javierquerol.es/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 16 Feb 2015 13:02:21 +0100</pubDate>
-    <lastBuildDate>Mon, 16 Feb 2015 13:02:21 +0100</lastBuildDate>
+    <pubDate>Mon, 16 Feb 2015 20:13:47 +0100</pubDate>
+    <lastBuildDate>Mon, 16 Feb 2015 20:13:47 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>OSX Subtitle integrator</title>
+        <description>&lt;p&gt;Based on Apple sample code, but modified in order to parse &lt;code&gt;.srt&lt;/code&gt; subtitles, set language attribute and be used inside your project instead of being a command line tool.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;JAQSubtitlesTextReader&lt;/code&gt; parses the &lt;code&gt;.srt&lt;/code&gt;:
+&lt;script src=&quot;https://gist.github.com/2f4276e296941a2a9461.js&quot;&gt; &lt;/script&gt;
+&lt;script src=&quot;https://gist.github.com/968c4ae8e1f0377920ed.js&quot;&gt; &lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;JAQSubtitleIntegrator&lt;/code&gt; gets the input, the subtitle filepath and the language and writes on the output the input file with the subtitle integrated:
+&lt;script src=&quot;https://gist.github.com/5fe742f6d1d780959554.js&quot;&gt; &lt;/script&gt;
+&lt;script src=&quot;https://gist.github.com/a9670082d2cdb603e139.js&quot;&gt; &lt;/script&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 16 Feb 2015 20:44:22 +0100</pubDate>
+        <link>http://javierquerol.es/2015/02/16/osx-subtitle-integrator.html</link>
+        <guid isPermaLink="true">http://javierquerol.es/2015/02/16/osx-subtitle-integrator.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Cloning NSManagedObject excluding entities and relations</title>
@@ -18,15 +37,9 @@
 
 </description>
         <pubDate>Mon, 16 Feb 2015 12:35:22 +0100</pubDate>
-        <link>http://javierquerol.es/coredata/nsmanagedobject/category/2015/02/16/cloning-nsmanagedobject.html</link>
-        <guid isPermaLink="true">http://javierquerol.es/coredata/nsmanagedobject/category/2015/02/16/cloning-nsmanagedobject.html</guid>
+        <link>http://javierquerol.es/2015/02/16/cloning-nsmanagedobject.html</link>
+        <guid isPermaLink="true">http://javierquerol.es/2015/02/16/cloning-nsmanagedobject.html</guid>
         
-        
-        <category>coredata</category>
-        
-        <category>nsmanagedobject</category>
-        
-        <category>category</category>
         
       </item>
     
@@ -41,39 +54,23 @@
 &lt;p&gt;In case there are no next &lt;code&gt;NSIndexPath&lt;/code&gt; it will return the very first position (loop).&lt;/p&gt;
 </description>
         <pubDate>Thu, 12 Feb 2015 12:18:22 +0100</pubDate>
-        <link>http://javierquerol.es/category/nsindexpath/uitableview/2015/02/12/go-to-next-nsindexpath.html</link>
-        <guid isPermaLink="true">http://javierquerol.es/category/nsindexpath/uitableview/2015/02/12/go-to-next-nsindexpath.html</guid>
+        <link>http://javierquerol.es/2015/02/12/go-to-next-nsindexpath.html</link>
+        <guid isPermaLink="true">http://javierquerol.es/2015/02/12/go-to-next-nsindexpath.html</guid>
         
-        
-        <category>category</category>
-        
-        <category>nsindexpath</category>
-        
-        <category>uitableview</category>
         
       </item>
     
       <item>
-        <title>NSArray map and filer in Objective-C</title>
+        <title>NSArray map and filter in Objective-C</title>
         <description>&lt;script src=&quot;https://gist.github.com/19ba0a998cfa000994cd.js&quot;&gt; &lt;/script&gt;
 
 &lt;script src=&quot;https://gist.github.com/08304cbbb923d4f24146.js&quot;&gt; &lt;/script&gt;
 
 </description>
         <pubDate>Sun, 11 Jan 2015 12:28:22 +0100</pubDate>
-        <link>http://javierquerol.es/category/nsarray/map/filter/objective-c/2015/01/11/nsarray-map-filter.html</link>
-        <guid isPermaLink="true">http://javierquerol.es/category/nsarray/map/filter/objective-c/2015/01/11/nsarray-map-filter.html</guid>
+        <link>http://javierquerol.es/2015/01/11/nsarray-map-filter.html</link>
+        <guid isPermaLink="true">http://javierquerol.es/2015/01/11/nsarray-map-filter.html</guid>
         
-        
-        <category>category</category>
-        
-        <category>nsarray</category>
-        
-        <category>map</category>
-        
-        <category>filter</category>
-        
-        <category>objective-c</category>
         
       </item>
     
@@ -88,15 +85,9 @@
 &lt;p&gt;This category allows you to create sections in your &lt;code&gt;UITableView&lt;/code&gt; sorted by name like a Contact list.&lt;/p&gt;
 </description>
         <pubDate>Sat, 03 Jan 2015 12:35:22 +0100</pubDate>
-        <link>http://javierquerol.es/coredata/nsmanagedobject/category/2015/01/03/nsmanagedobject-first-letter.html</link>
-        <guid isPermaLink="true">http://javierquerol.es/coredata/nsmanagedobject/category/2015/01/03/nsmanagedobject-first-letter.html</guid>
+        <link>http://javierquerol.es/2015/01/03/nsmanagedobject-first-letter.html</link>
+        <guid isPermaLink="true">http://javierquerol.es/2015/01/03/nsmanagedobject-first-letter.html</guid>
         
-        
-        <category>coredata</category>
-        
-        <category>nsmanagedobject</category>
-        
-        <category>category</category>
         
       </item>
     
@@ -110,15 +101,9 @@
 
 </description>
         <pubDate>Sat, 27 Dec 2014 12:35:22 +0100</pubDate>
-        <link>http://javierquerol.es/uilabel/html/category/2014/12/27/uilabel-web-content-native-layout.html</link>
-        <guid isPermaLink="true">http://javierquerol.es/uilabel/html/category/2014/12/27/uilabel-web-content-native-layout.html</guid>
+        <link>http://javierquerol.es/2014/12/27/uilabel-web-content-native-layout.html</link>
+        <guid isPermaLink="true">http://javierquerol.es/2014/12/27/uilabel-web-content-native-layout.html</guid>
         
-        
-        <category>uilabel</category>
-        
-        <category>html</category>
-        
-        <category>category</category>
         
       </item>
     
@@ -130,19 +115,9 @@
 
 </description>
         <pubDate>Mon, 22 Dec 2014 12:35:22 +0100</pubDate>
-        <link>http://javierquerol.es/scnnode/scenekit/dice/face/up/2014/12/22/scnnode-face-up.html</link>
-        <guid isPermaLink="true">http://javierquerol.es/scnnode/scenekit/dice/face/up/2014/12/22/scnnode-face-up.html</guid>
+        <link>http://javierquerol.es/2014/12/22/scnnode-face-up.html</link>
+        <guid isPermaLink="true">http://javierquerol.es/2014/12/22/scnnode-face-up.html</guid>
         
-        
-        <category>scnnode</category>
-        
-        <category>scenekit</category>
-        
-        <category>dice</category>
-        
-        <category>face</category>
-        
-        <category>up</category>
         
       </item>
     
