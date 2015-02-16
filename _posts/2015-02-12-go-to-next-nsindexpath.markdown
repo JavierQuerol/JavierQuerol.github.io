@@ -2,7 +2,6 @@
 layout: post
 title:  "Go to next NSIndexPath"
 date:   2015-02-12 11:18:22
-categories: category nsindexpath uitableview
 ---
 I'm currently making a form app, and I would like to access the next row on a `UITableView`, I don't want to care about if it's on the current section or not, so I created a `UITableView` category to retrieve the next `NSIndexPath`:
 

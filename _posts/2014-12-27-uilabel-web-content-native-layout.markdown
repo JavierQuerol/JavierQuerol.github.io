@@ -2,7 +2,6 @@
 layout: post
 title:  "UILabel that shows web content with native style"
 date:   2014-12-27 11:35:22
-categories: uilabel html category
 ---
 
 With this category, your `UILabel` will load the attributed html content (applying all the tags), but it will keep the font and size of the `UILabel`.

@@ -2,7 +2,6 @@
 layout: post
 title:  "A NSManagedObject category to retrieve the first letter from an attribute"
 date:   2015-01-03 11:35:22
-categories: coredata nsmanagedobject category
 ---
 
 Sometimes you want to order your `NSManagedObjects` by name, but not all the objects has the first letter uppercased, and you don't want to create a new property just to store the first letter. In this case you can call a method that gives you the first letter on runtime.
