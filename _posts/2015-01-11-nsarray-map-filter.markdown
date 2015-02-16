@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "NSArray map and filer in Objective-C"
+title:  "NSArray map and filter in Objective-C"
 date:   2015-01-11 11:28:22
 ---
 
