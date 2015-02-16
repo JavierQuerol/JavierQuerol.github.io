@@ -7,10 +7,10 @@ layout: default
 			<ul class="post-list">
 				{% for post in site.posts %}
 				<li>
-					<span style="color:#888">
+					<span style="color:#aaa;font-family:Menlo,Monaco,Courier;">
 					{{ post.date | date_to_string }}
 					</span>
-					 » 
+					»  
 					<a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
 				</li>
 				{% endfor %}
