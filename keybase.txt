@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/javierquerol
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.javierquerol.es
+  * I am javierquerol (https://keybase.io/javierquerol) on keybase.
+  * I have a public key with fingerprint 8167 1DA5 0095 7C1D A078  93C5 D788 39A1 0652 0872
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "81671da500957c1da07893c5d78839a106520872",
+            "host": "keybase.io",
+            "key_id": "d78839a106520872",
+            "uid": "95a208bd578d057983cd626ff1844a00",
+            "username": "javierquerol"
+        },
+        "service": {
+            "hostname": "www.javierquerol.es",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1398711452,
+    "expire_in": 157680000,
+    "prev": "a1c05e5bf3450a7ec0195a5c682a00f153c8d12724ac74a13935b8e3098186d7",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.12
+Comment: https://keybase.io/crypto
+
+yMH0AnicbZFvSBRbGMbHzSu6uJCgVFwu5DGoSyYzO3Nmzix6kxCj2ycRv4nr7MzZ
+3XFzZ539l66agcqFW3nFUtHkWrSkIRZU/gkyldTKxPBDRd1Q10ipLPJSJIl4djHo
+Q+fLOed9f8/znve89007KGPca/Zmc+TjDBU3PbrhpwpLrlwMAZumVAJLCLhwbLOr
+bgfWPbrq9gELQAwvMIoEaVqEgkxOtIBEVoaKgBArSgzNQzONBDPIBE7NG1UQG5vk
+xVmqRmLkYlUVEv0J748lRCiRgE2BAlJoKIiIlRXezNvtDOI4iaajoBfrbqkcE7pM
+CqhYr/BjXTsBajIByQRUmWRCsfLbVDAYzPqRzMJeYuPRNZ8mE50FOH0+jyWq91V6
+YgJss25bWW2qWyFfQAQBrHtVzQ0sDCFlnxr1ZlgRCQzDQXMmwCc9qo6tapSAAo9o
+sqJlcIBYSoxMQwxtdpaDtCRgmWZIq1DmkZl0ZWcgKyOFMQtmTpIFTiK+LLQhzNIi
+YhCvCKS+F1e4NWBhyTMlB7H0qg635PPrGNSMjxbHU3FGKuEXQ3SIlDFp5/fRYjaR
+GkL/VLfYk5yl2ReqDLmLu121cxP3XKGVxpXSvKnO7j+t55zpaV87W5+ZKNNbxvCt
+IDx4Q2vKv5T35IV/2pRztXG5NmEO73MdHXp4PL0+nNz2/o/rptO7SnvwkcL+4NOD
+aYdn/r7W8bloJF7y3K0rPxM+W7b5f0aJYX+gfe3fnJbU1F44MRyKt0w+aNl7O7iw
+MN6e+1trhIsYJwsco28Sjx1o6F/KudU3O9Z3qLtJafRvdK0v/7W60bb8LrvnS8qg
+a6Tjv0hV39Jw/ura0uP5zT0Z3KP1kVOzkbwFpf78zJz4a8orvu55Efi9d6A5fLmr
+ofhDdf3A/GTPWPLLT1N3Fsu2AHc+IOw=
+=yNrC
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/javierquerol
+
+==================================================================
