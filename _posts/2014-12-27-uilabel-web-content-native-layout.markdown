@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "UILabel that shows web content with native style"
+title:  "Showing web content in UILabel with native style"
 date:   2014-12-27 11:35:22
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A NSManagedObject category to retrieve the first letter from an attribute"
+title:  "Sorting NSManagedObjects by name with sections"
 date:   2015-01-03 11:35:22
 ---
 
