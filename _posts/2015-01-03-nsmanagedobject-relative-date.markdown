@@ -6,7 +6,7 @@ date:   2015-01-03 11:35:22
 
 Sometimes you want to order your `NSManagedObjects` by date, in this case I would like to group objects by relative date like Today, Yesterday, etc…
 
-I'm using [`DateTools`](https://github.com/MatthewYork/DateTools) in order to make easy some relative dates, for the long time distance dates I'm using the default `doesRelativeDateFormatting` from `NSDateFormatter`.
+I'm using [DateTools](https://github.com/MatthewYork/DateTools) in order to make easy some relative dates, for the long time distance dates I'm using the default `doesRelativeDateFormatting` from `NSDateFormatter`.
 
 {% gist 4a924088c3aa1c20411f %}
 
@@ -20,3 +20,5 @@ This category allows you to create sections in your `UITableView` sorted by rela
  sectionNameKeyPath:@"relativeDate"
  cacheName:nil];
 {% endhighlight %}
+
+PS: I have `- (NSDate *)dateOfToday` as a NSDate category, but in this case I put everything inside the same file to make this example clearer.
