@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Javier Querol blog">
     <meta name="author" content="Javier Querol">
-    <meta name="description" content="Sometimes you want to order your NSManagedObjects by name, but not all the objects has the first letter uppercased, and you don’t want to create a new proper...">
+    <meta name="description" content="Sometimes you want to order your NSManagedObjects by date, in this case I would like to group objects by relative date like Today, Yesterday, ">
 
-    <title>Sorting NSManagedObjects by name with sections</title>
+    <title>Sorting NSManagedObjects by relative date</title>
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://javierquerol.es/2015/01/03/nsmanagedobject-first-letter.html">
+    <link rel="canonical" href="http://javierquerol.es/2015/01/03/nsmanagedobject-relative-date.html">
     <link rel="alternate" type="application/rss+xml" title="javierquerol.es" href="http://javierquerol.es/feed.xml" />
 
     <link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -81,19 +81,24 @@
 	<div style="text-align:center;">
 		<a href="/" class="btn-social"><i class="fa fa-fw fa-home fa-lg"></i></a>
 	</div>
-    <h1 class="post-title">Sorting NSManagedObjects by name with sections</h1>
+    <h1 class="post-title">Sorting NSManagedObjects by relative date</h1>
     <p class="post-meta">Jan 3, 2015</p>
   </header>
 
   <article class="post-content" id="post">
 	<div>
-		<p>Sometimes you want to order your <code>NSManagedObjects</code> by name, but not all the objects has the first letter uppercased, and you don’t want to create a new property just to store the first letter. In this case you can call a method that gives you the first letter on runtime.</p>
+		<p>Sometimes you want to order your <code>NSManagedObjects</code> by date, in this case I would like to group objects by relative date like Today, Yesterday, </p>
 
 <script src="https://gist.github.com/4a924088c3aa1c20411f.js"> </script>
 
 <script src="https://gist.github.com/4f456265b8a33f065a7e.js"> </script>
 
-<p>This category allows you to create sections in your <code>UITableView</code> sorted by name like a Contact list.</p>
+<p>This category allows you to create sections in your <code>UITableView</code> sorted by relative date by just setting the <code>sectionNameKeyPath</code> in your <code>NSFetchedResultsController</code> to the property available on the previous category:</p>
+
+<div class="highlight"><pre><code class="language-objective-c" data-lang="objective-c"><span class="p">[[</span><span class="bp">NSFetchedResultsController</span> <span class="n">alloc</span><span class="p">]</span> <span class="nl">initWithFetchRequest</span><span class="p">:</span><span class="n">fetchRequest</span>
+ <span class="nl">managedObjectContext</span><span class="p">:</span><span class="nb">self</span><span class="p">.</span><span class="n">coreDataManager</span><span class="p">.</span><span class="n">managedObjectContext</span>
+ <span class="nl">sectionNameKeyPath</span><span class="p">:</span><span class="s">@&quot;relativeDate&quot;</span>
+ <span class="nl">cacheName</span><span class="p">:</span><span class="nb">nil</span><span class="p">];</span></code></pre></div>
 	
 		<a class="twitter-share-button"
 		  href="https://twitter.com/share"
