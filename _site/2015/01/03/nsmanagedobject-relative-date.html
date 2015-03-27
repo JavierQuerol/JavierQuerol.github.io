@@ -89,7 +89,7 @@
 	<div>
 		<p>Sometimes you want to order your <code>NSManagedObjects</code> by date, in this case I would like to group objects by relative date like Today, Yesterday, etc…</p>
 
-<p>I’m using <a href="https://github.com/MatthewYork/DateTools"><code>DateTools</code></a> in order to make easy some relative dates, for the long time distance dates I’m using the default <code>doesRelativeDateFormatting</code> from <code>NSDateFormatter</code>.</p>
+<p>I’m using <a href="https://github.com/MatthewYork/DateTools">DateTools</a> in order to make easy some relative dates, for the long time distance dates I’m using the default <code>doesRelativeDateFormatting</code> from <code>NSDateFormatter</code>.</p>
 
 <script src="https://gist.github.com/4a924088c3aa1c20411f.js"> </script>
 
@@ -101,6 +101,8 @@
  <span class="nl">managedObjectContext</span><span class="p">:</span><span class="nb">self</span><span class="p">.</span><span class="n">coreDataManager</span><span class="p">.</span><span class="n">managedObjectContext</span>
  <span class="nl">sectionNameKeyPath</span><span class="p">:</span><span class="s">@&quot;relativeDate&quot;</span>
  <span class="nl">cacheName</span><span class="p">:</span><span class="nb">nil</span><span class="p">];</span></code></pre></div>
+
+<p>PS: I have <code>- (NSDate *)dateOfToday</code> as a NSDate category, but in this case I put everything inside the same file to make this example clearer.</p>
 	
 		<a class="twitter-share-button"
 		  href="https://twitter.com/share"

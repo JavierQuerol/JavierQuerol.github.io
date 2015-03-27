@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Javier Querol blog">
     <meta name="author" content="Javier Querol">
-    <meta name="description" content="Inspired in the Swift map and filter, I decided to port that feature into Objective-C and I realize that is very useful and I use it quite often.">
+    <meta name="description" content="Inspired in the Swift map and filter, I decided to port that feature into Objective-C and I realize that is very useful and I’m using it quite often.">
 
     <title>Map and Filter a NSArray in Objective-C</title>
 
@@ -87,11 +87,25 @@
 
   <article class="post-content" id="post">
 	<div>
-		<p>Inspired in the Swift map and filter, I decided to port that feature into Objective-C and I realize that is very useful and I use it quite often.</p>
+		<p>Inspired in the Swift map and filter, I decided to port that feature into Objective-C and I realize that is very useful and I’m using it quite often.</p>
 
 <script src="https://gist.github.com/19ba0a998cfa000994cd.js"> </script>
 
 <script src="https://gist.github.com/08304cbbb923d4f24146.js"> </script>
+
+<p>Example:</p>
+
+<div class="highlight"><pre><code class="language-objective-c" data-lang="objective-c"><span class="bp">NSArray</span> <span class="o">*</span><span class="n">test</span> <span class="o">=</span> <span class="l">@[</span><span class="mi">@2</span><span class="p">,</span><span class="mi">@3</span><span class="p">,</span><span class="mi">@4</span><span class="p">,</span><span class="mi">@5</span><span class="p">,</span><span class="mi">@6</span><span class="p">,</span><span class="mi">@7</span><span class="p">,</span><span class="mi">@8</span><span class="p">,</span><span class="mi">@9</span><span class="p">,</span><span class="mi">@10</span><span class="l">]</span><span class="p">;</span>
+	
+<span class="bp">NSArray</span> <span class="o">*</span><span class="n">filtered</span> <span class="o">=</span> <span class="p">[</span><span class="n">test</span> <span class="nl">jaq_filter</span><span class="p">:</span><span class="o">^</span><span class="kt">BOOL</span><span class="p">(</span><span class="kt">id</span> <span class="n">item</span><span class="p">)</span> <span class="p">{</span>
+	<span class="bp">NSNumber</span> <span class="o">*</span><span class="n">number</span> <span class="o">=</span> <span class="n">item</span><span class="p">;</span>
+	<span class="k">return</span> <span class="p">(</span><span class="n">number</span><span class="p">.</span><span class="n">integerValue</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">);</span>
+<span class="p">}];</span>
+
+<span class="bp">NSArray</span> <span class="o">*</span><span class="n">mapped</span> <span class="o">=</span> <span class="p">[</span><span class="n">test</span> <span class="nl">jaq_map</span><span class="p">:</span><span class="o">^</span><span class="kt">id</span><span class="p">(</span><span class="kt">id</span> <span class="n">item</span><span class="p">)</span> <span class="p">{</span>
+	<span class="bp">NSNumber</span> <span class="o">*</span><span class="n">number</span> <span class="o">=</span> <span class="n">item</span><span class="p">;</span>
+	<span class="k">return</span> <span class="l">@(</span><span class="n">number</span><span class="p">.</span><span class="n">integerValue</span><span class="o">*</span><span class="mi">2</span><span class="l">)</span><span class="p">;</span>
+<span class="p">}];</span></code></pre></div>
 
 <p>The same approach can be used in <code>NSSet</code> with ease.</p>
 	
